@@ -2,8 +2,8 @@ import Simpla from 'simpla';
 import SimplaNetlify from 'simpla/adapters/netlify';
 
 const SIMPLA_CONFIG = {
-  repo: 'simplajs/simplajs.org',
-  auth: new SimplaNetlify({ site: 'simplajs' }),
+  repo: 'felixlberg/felixlberg.github.io',
+  auth: new SimplaNetlify({ site: 'felixlberg' }),
   source: window.location.origin,
   branch: 'master'
 };
