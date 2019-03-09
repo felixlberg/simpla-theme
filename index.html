@@ -6,18 +6,6 @@
     <title>Felix Langenberg</title>
     <meta name="description" content="Webdesign">
 
-    <!-- FOUC -->
-    <style>
-      body[unresolved] {
-        visibility: hidden;
-      }
-    </style>
-    <script>
-      Window._resolveBody = function() {
-        document.body.removeAttribute('unresolved')
-      }
-    </script>
-
     <!-- Init Simpla -->
     <script src="https://unpkg.com/simpla@^3.0.0"></script>
     <script src="https://unpkg.com/simpla@^3.0.0/adapters/netlify.js"></script>
