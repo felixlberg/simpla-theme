@@ -1,3 +1,4 @@
 ## Allow access from other domains
-/*
-    Access-Control-Allow-Origin: *
+/server-push-path
+    Link: </index.js>; rel=preload; as=script
+    Link: </bower_components/*>; rel=preload; as=document
