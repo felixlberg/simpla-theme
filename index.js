@@ -6,10 +6,5 @@ const SIMPLA_CONFIG = {
 
 // Init Simpla
 Simpla.init(SIMPLA_CONFIG);
+
 window.Simpla = Simpla;
-
-// Prompt for login from auth adapter
-Simpla.login();
-
-// Log user out locally
-Simpla.logout();
