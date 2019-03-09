@@ -6,5 +6,3 @@ const SIMPLA_CONFIG = {
 
 // Init Simpla
 Simpla.init(SIMPLA_CONFIG);
-
-window.Simpla = Simpla;
