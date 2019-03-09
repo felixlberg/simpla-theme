@@ -1,4 +1,5 @@
 # Deps
+bower_components
 node_modules
 
 # Runtime
