@@ -15,7 +15,9 @@
   },
   "dependencies": {
     "simpla-admin": "^1.0.0",
+    "simpla-collection": "^1.0.0",
     "simpla-img": "^1.0.0",
+    "simpla-link": "^1.0.0",
     "simpla-text": "^1.0.0",
   }
 }
