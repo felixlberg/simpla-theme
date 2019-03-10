@@ -22,11 +22,17 @@
   <body>
 
     <!-- Block richtext -->
-      <div sid="intro">
-        <h1 class="heading">
-          <simpla-text sid="heading"></simpla-text>
-        </h1>
-      </div>
+    <div sid="intro">
+      <h1 class="heading">
+        <simpla-text sid="heading"></simpla-text>
+      </h1>
+    </div>
+
+    <script>
+      document.querySelector('div').path // '/nested'
+      document.querySelector('span').path // '/nested/path'
+      document.querySelector('p').path // '/path'
+    </script>
 
   </body>
 </html>
