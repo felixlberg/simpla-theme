@@ -1,0 +1,9 @@
+{
+  "type": "Text",
+  "data": {
+    "text": "Hello World"
+  },
+  "path": "/intro/heading/text",
+  "createdAt": "2017-12-03T09:14:46.914Z",
+  "updatedAt": "2017-12-15T23:19:49.359Z"
+}
