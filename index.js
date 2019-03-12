@@ -1,6 +1,6 @@
 const SIMPLA_CONFIG = {
   repo: 'felixlberg/felixlberg.github.io',
-  auth: new SimplaNetlify({ site: 'felixlberg.github.io' }),
+  auth: new SimplaNetlify({ site: 'simpla-theme.netlify.com' }),
   source: window.location.origin,
   branch: 'master'
 };
